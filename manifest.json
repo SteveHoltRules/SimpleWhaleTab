@@ -1,0 +1,17 @@
+{
+    "name": "NewWhaleTab",
+    "version": "1.0",
+    "author": "Matthew Luna",
+    "description": "Overwrite the New Tab Page!",
+    "manifest_version": 2,
+    "chrome_url_overrides" : {
+        "newtab": "whaleTab.html"
+      },
+      "icons": {
+          "16":"icons/whaleTail.png",
+          "32":"icons/whaleTail.png",
+          "128":"icons/whaleTail.png"
+      },
+      "permission": ["https://source.unsplash.com"]
+
+  }
